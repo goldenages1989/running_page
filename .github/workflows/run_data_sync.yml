@@ -113,7 +113,7 @@ jobs:
           python scripts/gen_svg.py --from-db --year $(date +"%Y")  --language zh_CN --title "$(date +"%Y") Running" --type github --athlete "${{ env.ATHLETE }}" --special-distance 10 --special-distance2 20 --special-color yellow --special-color2 red --output assets/github_$(date +"%Y").svg --use-localtime --min-distance 0.5
 
       - name: work around permission issue
-        run: git config --global --add safe.directory /__w/goldenages1989/running_page
+        run: git config --global --add safe.directory /__w/running_page/running_page
 
       - name: Push new runs
         uses: github-actions-x/commit@v2.6
