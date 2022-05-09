@@ -112,6 +112,10 @@ jobs:
           python scripts/gen_svg.py --from-db --type circular --use-localtime
           python scripts/gen_svg.py --from-db --year $(date +"%Y")  --language zh_CN --title "$(date +"%Y") Running" --type github --athlete "${{ env.ATHLETE }}" --special-distance 10 --special-distance2 20 --special-color yellow --special-color2 red --output assets/github_$(date +"%Y").svg --use-localtime --min-distance 0.5
 
+      - name: Generate SVG
+        run: |
+          python scripts/gen_svg.py --from-db --title "Running" --type github --athlete "glennzhou" --special-distance 10 --special-distance2 20 --special-color yellow --special-color2 red --output assets/github.svg --use-localtime --min-distance 0.5
+
       - name: Push new runs
         uses: github-actions-x/commit@v2.9
         with:
@@ -121,7 +125,3 @@ jobs:
           rebase: 'true'
           name: ${{ env.GITHUB_NAME }}
           email: ${{ env.GITHUB_EMAIL }}
-
-      - name: Generate SVG
-        run: |
-          python scripts/gen_svg.py --from-db --title "Running" --type github --athlete "glennzhou" --special-distance 10 --special-distance2 20 --special-color yellow --special-color2 red --output assets/github.svg --use-localtime --min-distance 0.5
