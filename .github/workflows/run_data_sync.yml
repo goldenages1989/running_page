@@ -121,3 +121,7 @@ jobs:
           rebase: 'true'
           name: ${{ env.GITHUB_NAME }}
           email: ${{ env.GITHUB_EMAIL }}
+
+      - name: Generate SVG
+        run: |
+          python scripts/gen_svg.py --from-db --title "Running" --type github --athlete "glennzhou" --special-distance 10 --special-distance2 20 --special-color yellow --special-color2 red --output assets/github.svg --use-localtime --min-distance 0.5
