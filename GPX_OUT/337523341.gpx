@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Garmin Connect" version="1.1"
+  xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/11.xsd"
+  xmlns:ns3="http://www.garmin.com/xmlschemas/TrackPointExtension/v1"
+  xmlns="http://www.topografix.com/GPX/1/1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns2="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+  <metadata>
+    <link href="connect.garmin.com">
+      <text>Garmin Connect</text>
+    </link>
+    <time>2024-03-23T08:28:41.000Z</time>
+  </metadata>
+  <trk>
+    <name>海淀区 Ponder</name>
+    <type>other</type>
+    <trkseg>
+      <trkpt lat="40.0812915153801441192626953125" lon="116.21808417141437530517578125">
+        <ele>34.40000152587890625</ele>
+        <time>2024-03-23T08:28:41.000Z</time>
+        <extensions>
+          <ns3:TrackPointExtension>
+            <ns3:atemp>26.0</ns3:atemp>
+            <ns3:hr>118</ns3:hr>
+          </ns3:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="40.081276260316371917724609375" lon="116.21807084418833255767822265625">
+        <ele>33.799999237060546875</ele>
+        <time>2024-03-23T08:28:47.000Z</time>
+        <extensions>
+          <ns3:TrackPointExtension>
+            <ns3:atemp>26.0</ns3:atemp>
+            <ns3:hr>115</ns3:hr>
+          </ns3:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="40.08125245571136474609375" lon="116.21806682087481021881103515625">
+        <ele>33.59999847412109375</ele>
+        <time>2024-03-23T08:28:50.000Z</time>
+        <extensions>
+          <ns3:TrackPointExtension>
+            <ns3:atemp>26.0</ns3:atemp>
+            <ns3:hr>114</ns3:hr>
+          </ns3:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="40.0812207721173763275146484375" lon="116.21809163130819797515869140625">
+        <ele>33.59999847412109375</ele>
+        <time>2024-03-23T08:28:56.000Z</time>
+        <extensions>
+          <ns3:TrackPointExtension>
+            <ns3:atemp>26.0</ns3:atemp>
+            <ns3:hr>110</ns3:hr>
+          </ns3:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="40.081214569509029388427734375" lon="116.2180928885936737060546875">
+        <ele>33.59999847412109375</ele>
+        <time>2024-03-23T08:28:57.000Z</time>
+        <extensions>
+          <ns3:TrackPointExtension>
+            <ns3:atemp>26.0</ns3:atemp>
+            <ns3:hr>113</ns3:hr>
+          </ns3:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="40.08120861835777759552001953125" lon="116.21809515170753002166748046875">
+        <ele>33.59999847412109375</ele>
+        <time>2024-03-23T08:28:58.000Z</time>
+        <extensions>
+          <ns3:TrackPointExtension>
+            <ns3:atemp>26.0</ns3:atemp>
+            <ns3:hr>112</ns3:hr>
+          </ns3:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="40.08118967525660991668701171875" lon="116.21810152195394039154052734375">
+        <ele>33.59999847412109375</ele>
+        <time>2024-03-23T08:29:00.000Z</time>
+        <extensions>
+          <ns3:TrackPointExtension>
+            <ns3:atemp>26.0</ns3:atemp>
+            <ns3:hr>115</ns3:hr>
+          </ns3:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="40.0811808742582798004150390625" lon="116.2181000970304012298583984375">
+        <ele>33.59999847412109375</ele>
+        <time>2024-03-23T08:29:01.000Z</time>
+        <extensions>
+          <ns3:TrackPointExtension>
+            <ns3:atemp>26.0</ns3:atemp>
+            <ns3:hr>116</ns3:hr>
+          </ns3:TrackPointExtension>
+        </extensions>
+      </trkpt>
+      <trkpt lat="40.08115950040519237518310546875" lon="116.21807822026312351226806640625">
+        <ele>33.40000152587890625</ele>
+        <time>2024-03-23T08:29:04.000Z</time>
+        <extensions>
+          <ns3:TrackPointExtension>
+            <ns3:atemp>26.0</ns3:atemp>
+            <ns3:hr>116</ns3:hr>
+          </ns3:TrackPointExtension>
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
